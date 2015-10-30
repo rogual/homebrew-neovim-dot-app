@@ -15,6 +15,7 @@ class NeovimDotApp < Formula
     ENV.prepend_path "PATH", Formula["python"].opt_bin
     system "make", "NVIM=#{Formula["neovim"].opt_bin}/nvim"
     prefix.install "build/Neovim.app"
+    bin.install "gnvim"
   end
 
   test do
