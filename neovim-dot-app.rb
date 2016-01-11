@@ -2,7 +2,9 @@ class NeovimDotApp < Formula
   homepage "https://github.com/rogual/neovim-dot-app"
   head "https://github.com/rogual/neovim-dot-app.git"
 
-  depends_on "scons"
+  depends_on "scons"     => :build
+  depends_on "pkgconfig" => :build
+
   depends_on "msgpack"
   depends_on "neovim"
 
