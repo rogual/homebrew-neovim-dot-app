@@ -1,7 +1,7 @@
 class NeovimDotApp < Formula
   homepage "https://github.com/rogual/neovim-dot-app"
   head "https://github.com/rogual/neovim-dot-app.git"
-  url "https://github.com/rogual/neovim-dot-app/archive/0.1.2.tar.gz"
+  url "https://github.com/rogual/neovim-dot-app/archive/0.1.4.tar.gz"
   sha256 "88ad4af6bdd8f0cd008b3ff065fca53ef7870c388ba62a060cb2bdcb19709801"
 
   depends_on "scons"     => :build
