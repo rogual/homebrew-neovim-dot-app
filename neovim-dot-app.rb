@@ -10,8 +10,6 @@ class NeovimDotApp < Formula
   depends_on "msgpack"
   depends_on "neovim"
 
-  # scons requires python 2
-  depends_on :python => :recommended
   depends_on :xcode
   depends_on :arch => :x86_64
 
